@@ -19,5 +19,29 @@ This project is a simple web application that converts measurements from inches 
 
 1. **Clone the repository** or download the files directly.
    
-   ```bash
-   git clone <repository-url>
+git clone <repository-url>
+
+
+2. **Navigate to the project folder**.
+
+3. Open `index.html` in a web browser.
+
+## Usage
+
+1. Enter a measurement in the input box (e.g., `7.87 x 7.87 x 2.36 inches`).
+2. Click the **Convert** button.
+3. The result in centimeters will appear in the read-only output box.
+
+## Example Inputs
+
+- `7.87 x 7.87 x 2.36 inches` → `20.00 x 20.00 x 6.00 cm`
+- `5 x 10 inches` → `12.70 x 25.40 cm`
+- `3.5 inches` → `8.89 cm`
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Author
+
+Braian Takahira
