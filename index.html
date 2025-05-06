@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inches to Centimeters Converter</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 20px;
+        }
+        #result {
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="mt-4">Inches to Centimeters Converter</h1>
+        <div class="form-group">
+            <label for="input">Enter measurement (e.g., 7.87 x 7.87 x 2.36 inches)</label>
+            <input type="text" class="form-control" id="input" placeholder="Enter measurement">
+        </div>
+        <button class="btn btn-primary" id="convertBtn">Convert</button>
+        <div class="form-group mt-3">
+            <label for="result">Result in cm</label>
+            <input type="text" class="form-control" id="result" placeholder="Result in cm" readonly>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
